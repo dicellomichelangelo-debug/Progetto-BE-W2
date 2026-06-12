@@ -4,7 +4,7 @@ public class GiochiDaTavolo extends GiochiAbstract {
     private int numGiocatori;
     private Double durataMedia;
 
-    public GiochiDaTavolo(long Id, String titolo, int anno, Double price, int numGiocatori, Double durataMedia) {
+    public GiochiDaTavolo(int Id, String titolo, int anno, Double price, int numGiocatori, Double durataMedia) {
         super(Id, titolo, anno, price);
         this.numGiocatori = numGiocatori;
         this.durataMedia = durataMedia;

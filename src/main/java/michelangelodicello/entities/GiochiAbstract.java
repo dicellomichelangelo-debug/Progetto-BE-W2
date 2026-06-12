@@ -1,19 +1,19 @@
 package michelangelodicello.entities;
 
 public abstract class GiochiAbstract {
-    protected long Id;
+    protected int Id;
     protected String titolo;
     protected int anno;
     protected Double price;
 
-    public GiochiAbstract(long Id, String titolo, int anno, Double price) {
+    public GiochiAbstract(int Id, String titolo, int anno, Double price) {
         this.Id = Id;
         this.titolo = titolo;
         this.anno = anno;
         this.price = price;
     }
 
-    public long getId() {
+    public int getId() {
         return Id;
     }
 
