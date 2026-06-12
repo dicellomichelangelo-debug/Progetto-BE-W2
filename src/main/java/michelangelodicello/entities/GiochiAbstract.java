@@ -28,4 +28,13 @@ public abstract class GiochiAbstract {
     public Double getPrice() {
         return price;
     }
+
+    @Override
+    public String toString() {
+        return "GiochiAbstract{" +
+                ", titolo='" + titolo + '\'' +
+                ", anno=" + anno +
+                ", price=" + price +
+                '}';
+    }
 }
